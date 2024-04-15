@@ -1,0 +1,20 @@
+{
+  "name": "approval-flow-corporate-photography",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.ssh.covestro.com:it-app-be/custom-forms/approval-flow-corporate-photography.git"
+  },
+  "author": "Andry Charlier <andry.charlier@covestro.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "cd ./server && npm start",
+    "prettier": "prettier '**/*.{css,scss,js,ts,vue}'",
+    "format": "npm run prettier -- --write",
+    "format:check": "npm run prettier -- --check"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "compilerOptions": {
+    "module": "es2022",
+    "moduleResolution": "bundler",
+    "baseUrl": ".",
+    "paths": {
+      "~config": [
+        "./src/config/index.ts"
+      ],
+      "~core": [
+        "./src/modules/core/index.ts"
+      ],
+      "~shared": [
+        "./src/modules/shared/index.ts"
+      ]
+    }
+  }
+}
